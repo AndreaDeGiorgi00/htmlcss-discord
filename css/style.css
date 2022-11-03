@@ -10,7 +10,10 @@
 body {
   font-family: sans-serif;
 }
-
+h2{
+  text-align: left;
+  font-size: 35px;
+}
 button{
   padding: 10px;
   border-radius: 30px;
@@ -25,6 +28,7 @@ h1{
 }
 span{
   font-size: 25px;
+  margin: 10px ;
 }
 
 /* Utils */
@@ -61,6 +65,9 @@ a{
   background-color: white;
 }
 
+.bg-darkblue{
+  background-color: blue;
+}
 .bg-gray {
   background-color: lightgray;
 }
@@ -72,12 +79,15 @@ a{
   color: white;
 }
 
+.col-blue{
+  color: blue;
+}
 header {
   background-color: lightblue;
 }
 
 .small-col > h1{
-  margin:55px auto;
+  margin:20px auto;
 }
 
 .alt-img{
@@ -121,7 +131,7 @@ header {
 }
 
 .jumbotron .content {
-  width: 55%;
+  width: 100%%;
   text-align: center;
  
   /* height: 100%; */
@@ -139,7 +149,7 @@ header {
 
 /* # Main & sections */
 section {
-  padding: 50px;
+  padding: 100px 50px;
   height: 600px;
 }
 
@@ -158,12 +168,32 @@ section > .container {
 }
 
 .flex > .full-col {
-  flex-basis: 100%;
-  background-color: darkgreen;
+  width: 100%;
+  background-color:darkgreen;
 }
 
-/* # Footer */
 
+.a-i{
+  align-items: center;
+}
+.full-col{
+  text-align: center;
+}
+
+.section-xl{
+  height: 1000px;
+}
+
+.testo-finale{
+  font-size: 45px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.descrizione-finale{
+  font-size: 20px;
+}
+/* # Footer */
 footer {
   padding: 50px;
   background-color: #23272a;
@@ -213,7 +243,16 @@ footer {
 }
 
 
+a-i-l{
+  align-items: flex-start;
+}
 
+
+.s-folder{
+  text-align: left;
+  padding: 0;
+  margin: 25px;
+}
 
 
 
@@ -222,4 +261,8 @@ footer {
 
 .bg-1{
   background-image: url("immagini/jumbo.png") ;
+}
+
+#italia{
+  width: 25px;
 }
