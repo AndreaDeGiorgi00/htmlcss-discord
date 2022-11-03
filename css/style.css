@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 /* Generics */
@@ -13,16 +14,25 @@ body {
 button{
   padding: 10px;
   border-radius: 30px;
+  margin: 0 20px;
   
 }
 
+
+h1{
+  font-size: 50px;
+  margin: 70px auto;
+}
+/* Utils */
 a{
   text-decoration: none;
   color: white;
   padding: 0 15px;
 }
-/* Utils */
 
+.al-max-colum{
+  flex-basis: 50px;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -46,6 +56,13 @@ a{
 
 .bg-gray {
   background-color: lightgray;
+}
+
+.bg-black{
+  background-color: black;
+}
+.col-white{
+  color: white;
 }
 
 header {
@@ -83,17 +100,26 @@ header {
 .jumbotron {
   padding: 50px;
   height: 500px;
-  background-color: darkblue;
-
+  background-image: url("/../immagini/jumbo.png");
   display: flex;
   justify-content: center;
 }
 
 .jumbotron .content {
-  width: 50%;
+  width: 55%;
+  text-align: center;
+ 
   /* height: 100%; */
   /* margin: 0 auto; */
   background-color: violet;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+.bottoni-intro{
+  margin: 40px 20px;
 }
 
 /* # Main & sections */
@@ -169,4 +195,16 @@ footer {
 .footer-bottom > * {
   padding: 5px 10px;
   background-color: yellow;
+}
+
+
+
+
+
+
+
+/*sfondi*/
+
+.bg-1{
+  background-image: url("immagini/jumbo.png") ;
 }
