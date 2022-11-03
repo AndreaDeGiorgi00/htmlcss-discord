@@ -21,8 +21,12 @@ button{
 
 h1{
   font-size: 50px;
-  margin: 70px auto;
+  margin: 55px auto;
 }
+span{
+  font-size: 25px;
+}
+
 /* Utils */
 a{
   text-decoration: none;
@@ -50,6 +54,9 @@ a{
   border: 2px dashed black;
 }
 
+.bg-blue{
+  background-color: lightblue;
+}
 .bg-white {
   background-color: white;
 }
@@ -69,6 +76,13 @@ header {
   background-color: lightblue;
 }
 
+.small-col > h1{
+  margin:55px auto;
+}
+
+.alt-img{
+  height: 100%;
+}
 /* # Navbar */
 
 .navbar {
@@ -100,7 +114,8 @@ header {
 .jumbotron {
   padding: 50px;
   height: 500px;
-  background-image: url("/../immagini/jumbo.png");
+  background-image: src('../immagini/jumbo.png');
+  background-size: cover;
   display: flex;
   justify-content: center;
 }
@@ -134,7 +149,7 @@ section > .container {
 
 .flex > .small-col {
   flex-basis: 40%;
-  background-color: pink;
+  
 }
 
 .flex > .large-col {
